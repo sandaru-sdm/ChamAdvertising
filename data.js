@@ -455,7 +455,7 @@ const customerLogos = [
 
 const testimonialsData = [
     {
-        quote: "Chamdvertising truly understands our vision and consistently delivers high-quality advertising solutions. Their team is professional and highly creative.",
+        quote: "Cham Advertising truly understands our vision and consistently delivers high-quality advertising solutions. Their team is professional and highly creative.",
         name: "A. Perera",
         title: "Marketing Manager, Industrial Asphalts (Ceylon) PLC"
     },
@@ -470,7 +470,7 @@ const testimonialsData = [
         title: "HR Manager, Lankem Ceylon PLC"
     },
     {
-        quote: "Chamdvertising managed our event seamlessly, from concept to execution. We were impressed by their attention to detail and professionalism.",
+        quote: "Cham Advertising managed our event seamlessly, from concept to execution. We were impressed by their attention to detail and professionalism.",
         name: "K. Gunawardena",
         title: "Event Coordinator, Sada Sarana Motors (Pvt) Ltd"
     },
