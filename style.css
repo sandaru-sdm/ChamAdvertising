@@ -583,6 +583,22 @@ footer {
     animation: zoomInBounce 1s forwards cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
+/* Portfolio Modal Image Sizing */
+#portfolioModal .modal-dialog {
+    max-width: 35%; /* Adjust modal width to better fit the images */
+}
+
+#portfolioModal .modal-body img {
+    width: 30%; /* Set image width to 50% of its parent (modal-body) */
+    height: auto; /* Adjust height proportionally */
+    display: block; /* Ensure it behaves as a block element */
+    margin: 0 auto; /* Center the image within the modal-body */
+}
+
+#portfolioModal .carousel-item {
+    text-align: center; /* Center the image within its carousel item */
+}
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 992px) {
@@ -632,6 +648,15 @@ footer {
     .logo-track:nth-child(2) {
         animation-delay: -15s;
     }
+
+    /* Adjust modal image size for smaller screens if needed */
+    #portfolioModal .modal-dialog {
+        max-width: 90%;
+    }
+
+    #portfolioModal .modal-body img {
+        width: 75%; /* Make modal images slightly larger on smaller screens */
+    }
 }
 
 @media (max-width: 576px) {
@@ -660,5 +685,10 @@ footer {
         width: 120px;
         height: 80px;
         margin: 0 15px;
+    }
+
+    /* Further adjust modal image size for very small screens */
+    #portfolioModal .modal-body img {
+        width: 90%; /* Almost full width for very small screens */
     }
 }
