@@ -132,7 +132,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-
     // Intersection Observer for Scroll Animations
     const animateOnScrollElements = document.querySelectorAll('.animate-on-scroll');
 
@@ -151,13 +150,58 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(element);
     });
 
-    // Simple Form Submission (for demonstration, no backend)
+    // EmailJS Form Submission and Validation
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Thank you for your message! We will get back to you soon.');
-            this.reset(); // Clear the form
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const mobile = document.getElementById('mobile');
+            const message = document.getElementById('message').value;
+
+            // Sri Lankan mobile number validation (starts with 0 or +94, followed by 9 digits)
+            const mobilePattern = /^(0|\+94)?[0-9]{9}$/;
+            if (!mobilePattern.test(mobile.value)) {
+                mobile.classList.add('is-invalid');
+                return; // Stop form submission
+            } else {
+                mobile.classList.remove('is-invalid');
+            }
+
+            // Get current time in Colombo, Sri Lanka
+            const now = new Date();
+            const options = {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                hour12: true,
+                timeZone: 'Asia/Colombo' // Colombo, Sri Lanka timezone
+            };
+            const formattedTime = new Intl.DateTimeFormat('en-US', options).format(now);
+
+            const templateParams = {
+                name: name,
+                email: email,
+                mobile: mobile.value,
+                message: message,
+                time: formattedTime
+            };
+
+            // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual EmailJS IDs
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert('Your message has been sent successfully! We will get back to you soon.');
+                    contactForm.reset(); // Clear the form
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    alert('Failed to send message. Please try again later.');
+                });
         });
     }
 });
