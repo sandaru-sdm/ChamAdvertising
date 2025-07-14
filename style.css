@@ -107,8 +107,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section */
 #hero {
-    /* Changed to linear gradient background */
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); /* Or experiment with 'to bottom right', '180deg', etc. */
+    /* background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); */
+    background: var(--dark-color); /* Solid color for simplicity */
     min-height: 100vh;
     color: var(--white-color);
     display: flex;
