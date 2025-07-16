@@ -197,10 +197,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 30px;
     text-align: center;
-    height: 100%; /* Ensure cards are same height */
+    /* The important changes were here */
+    height: 100%; /* Make the card take full height of its column */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Align content to the top */
     align-items: center;
 }
 
@@ -229,6 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 .service-card p {
     font-size: 1rem;
     color: #666;
+    flex-grow: 1; /* This makes the paragraph fill available space, pushing content down if needed */
 }
 
 /* Portfolio Section */
