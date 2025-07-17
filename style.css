@@ -197,12 +197,12 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 30px;
     text-align: center;
-    /* The important changes were here */
-    height: 100%; /* Make the card take full height of its column */
+    /* --- Key changes for consistent height --- */
+    min-height: 300px; /* Set a fixed minimum height for all cards. Adjust this value as needed. */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align content to the top */
-    align-items: center;
+    justify-content: flex-start; /* Aligns items to the top */
+    align-items: center; /* Centers horizontally */
 }
 
 .service-card:hover {
@@ -230,7 +230,16 @@ h1, h2, h3, h4, h5, h6 {
 .service-card p {
     font-size: 1rem;
     color: #666;
-    flex-grow: 1; /* This makes the paragraph fill available space, pushing content down if needed */
+    flex-grow: 1; /* Allows the paragraph to take available space within the set min-height */
+    /* --- Overflow handling for long descriptions --- */
+    overflow: hidden; /* Hides content that overflows the element's box */
+    text-overflow: ellipsis; /* Displays an ellipsis (...) to indicate clipped text */
+    display: -webkit-box; /* Required for -webkit-line-clamp */
+    -webkit-line-clamp: 4; /* Limit to 4 lines. Adjust as needed. */
+    line-clamp: 4; /* Standard property for compatibility */
+    -webkit-box-orient: vertical; /* Required for -webkit-line-clamp */
+    line-height: 1.5; /* Ensure consistent line spacing */
+    max-height: calc(1.5em * 4); /* Max height based on line-height and line-clamp (adjust 4 as needed) */
 }
 
 /* Portfolio Section */
