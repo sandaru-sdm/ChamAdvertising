@@ -3,7 +3,7 @@ const servicesData = [
         id: 1,
         title: "Digital & Offset Printing",
         description: "Any kind of offset printing can be done according to your customized requirements, from small to large size prints.",
-        icon: "bi-printer-fill", // Bootstrap Icon class
+        icon: "bi-printer-fill", 
     },
     {
         id: 2,
@@ -36,10 +36,10 @@ const servicesData = [
         icon: "bi-display-fill",
     },
     {
-        id: 7, // New service ID
+        id: 7, 
         title: "Custom Mug Printing",
         description: "Personalized mug printing for corporate branding, promotional giveaways, or special occasions.",
-        icon: "bi-cup-fill", // A suitable Bootstrap Icon
+        icon: "bi-cup-fill", 
     }
 ];
 
