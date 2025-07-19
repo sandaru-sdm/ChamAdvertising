@@ -3,7 +3,7 @@ const servicesData = [
         id: 1,
         title: "Digital & Offset Printing",
         description: "Any kind of offset printing can be done according to your customized requirements, from small to large size prints.",
-        icon: "bi-printer-fill", 
+        icon: "bi-printer-fill",
     },
     {
         id: 2,
@@ -36,11 +36,30 @@ const servicesData = [
         icon: "bi-display-fill",
     },
     {
-        id: 7, 
+        id: 7,
         title: "Custom Mug Printing",
         description: "Personalized mug printing for corporate branding, promotional giveaways, or special occasions.",
-        icon: "bi-cup-fill", 
-    }
+        icon: "bi-cup-fill",
+    },
+    {
+        id: 8,
+        title: "Fabric Prints",
+        description: "High-quality printing on various fabric materials for banners, displays, and custom textiles.",
+        icon: "bi-text-wrap", // or bi-image, bi-card-image
+    },
+    {
+        id: 9,
+        title: "Printed Murals & Wallpapers",
+        description: "Transform spaces with custom-designed and printed murals or wallpapers for impactful branding and decor.",
+        icon: "bi-image-fill",
+    },
+    {
+        id: 10,
+        title: "Trade Show Panels",
+        description: "Professionally printed and designed panels for trade shows, ensuring your booth stands out.",
+        icon: "bi-easel-fill",
+    },
+
 ];
 
 const portfolioData = [
@@ -139,7 +158,7 @@ const portfolioData = [
         description: "Innovative exhibition stall design and high-quality display materials."
     },
     {
-        id: 35,
+        id: 35, 
         title: "Mini Exhibition Stall Design",
         category: "Events & Exhibition Stalls",
         images: [
@@ -150,7 +169,7 @@ const portfolioData = [
         description: "Innovative exhibition stall design and high-quality display materials."
     },
     {
-        id: 9,
+        id: 9, 
         title: "Dodster Baked Wrap Display",
         category: "Indoor & Outdoor Signs & Displays",
         images: [
@@ -160,7 +179,7 @@ const portfolioData = [
         description: "Eye-catching display advertising for Dodster Baked Wrap."
     },
     {
-        id: 10,
+        id: 10, 
         title: "Illuminated Light Boards",
         category: "Indoor & Outdoor Signs & Displays",
         images: [
@@ -170,7 +189,7 @@ const portfolioData = [
         description: "Bright and impactful illuminated light boards designed to grab attention day and night."
     },
     {
-        id: 11,
+        id: 11, 
         title: "Custom Name Plates",
         category: "Indoor & Outdoor Signs & Displays",
         images: [
@@ -179,7 +198,7 @@ const portfolioData = [
         description: "Elegant and professional custom name plates for offices, homes, and businesses."
     },
     {
-        id: 12,
+        id: 12, 
         title: "Table Tents & Promotional Displays",
         category: "Digital & Offset Printing",
         images: [
@@ -191,7 +210,7 @@ const portfolioData = [
         description: "Versatile table tents and promotional displays perfect for restaurants, events, and retail promotions."
     },
     {
-        id: 13,
+        id: 13, 
         title: "Custom Printed Mugs",
         category: "Corporate Gifts",
         images: [
