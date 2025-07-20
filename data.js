@@ -45,7 +45,7 @@ const servicesData = [
         id: 8,
         title: "Fabric Prints",
         description: "High-quality printing on various fabric materials for banners, displays, and custom textiles.",
-        icon: "bi-text-wrap", // or bi-image, bi-card-image
+        icon: "bi-text-wrap", 
     },
     {
         id: 9,
@@ -58,7 +58,67 @@ const servicesData = [
         title: "Trade Show Panels",
         description: "Professionally printed and designed panels for trade shows, ensuring your booth stands out.",
         icon: "bi-easel-fill",
+    },{
+        id: 11,
+        title: "Tripod Stands",
+        description: "Lightweight and portable tripod stands for various displays and promotions.",
+        icon: "bi-triangle-fill", 
     },
+    {
+        id: 12,
+        title: "Custom Flags",
+        description: "Custom-designed and printed flags for branding, events, or promotional purposes.",
+        icon: "bi-flag-fill",
+    },
+    {
+        id: 13,
+        title: "Books & Magazines Printing",
+        description: "High-quality offset printing for books and magazines, from small runs to large publications.",
+        icon: "bi-book-fill",
+    },
+    {
+        id: 14,
+        title: "Posters & Catalogues Printing",
+        description: "Eye-catching poster design and printing, and comprehensive catalogue printing to showcase products or services.",
+        icon: "bi-journal-text",
+    },
+    {
+        id: 15,
+        title: "Brochures & Leaflets",
+        description: "Informative and attractive brochures and leaflets for effective marketing and information dissemination.",
+        icon: "bi-file-earmark-text-fill",
+    },
+    {
+        id: 16,
+        title: "Booklets & Corporate Profiles",
+        description: "Custom-designed and printed booklets and corporate profiles to present your company's story and services professionally.",
+        icon: "bi-file-earmark-person-fill",
+    },
+    {
+        id: 17,
+        title: "Custom Packaging & Display Materials",
+        description: "Creative and functional custom packaging and display materials to enhance your product presentation and brand appeal.",
+        icon: "bi-box-seam-fill",
+    },
+    {
+        id: 18,
+        title: "Letterhead Printing",
+        description: "Professional letterhead printing for your business correspondence, reinforcing your brand identity.",
+        icon: "bi-file-earmark-ruled-fill",
+    },
+    {
+        id: 19,
+        title: "Engraved Signs",
+        description: "Elegant and durable engraved signs for a sophisticated look, suitable for various professional settings.",
+        icon: "bi-gem", 
+    },
+    {
+        id: 20,
+        title: "Reception Signs", 
+        description: "Customized reception signs to create a strong first impression for your business entrance or lobby.",
+        icon: "bi-door-open-fill",
+    },
+
 
 ];
 
