@@ -118,8 +118,24 @@ const servicesData = [
         description: "Customized reception signs to create a strong first impression for your business entrance or lobby.",
         icon: "bi-door-open-fill",
     },
-
-
+    {
+        id: 21,
+        title: "3D Lettering", 
+        description: "Eye-catching 3D lettering for prominent signage and branding, adding depth and visual appeal.",
+        icon: "bi-vector-pen",
+    },
+    {
+        id: 22,
+        title: "Digital Displays (Interactive)",
+        description: "Modern digital displays for dynamic content, allowing brands to engage deeper with users through interactive experiences.",
+        icon: "bi-display-fill", 
+    },
+    {
+        id: 23,
+        title: "Custom Store Signs",
+        description: "Unique and eye-catching custom signs tailored specifically for retail stores to attract and guide customers.",
+        icon: "bi-shop-fill",
+    },
 ];
 
 const portfolioData = [
