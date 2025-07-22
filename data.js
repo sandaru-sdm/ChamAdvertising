@@ -136,6 +136,18 @@ const servicesData = [
         description: "Unique and eye-catching custom signs tailored specifically for retail stores to attract and guide customers.",
         icon: "bi-shop-fill",
     },
+    {
+        id: 24,
+        title: "Branded Merchandise",
+        description: "A wide range of merchandise custom-branded with your logo for promotional giveaways and corporate identity.",
+        icon: "bi-tags-fill",
+    },
+    {
+        id: 25,
+        title: "Apparel & Wearables",
+        description: "Custom-branded apparel and wearable items for corporate uniforms, promotional wear, or team building events.",
+        icon: "bi-t-shirt-fill",
+    },
 ];
 
 const portfolioData = [
