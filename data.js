@@ -148,6 +148,37 @@ const servicesData = [
         description: "Custom-branded apparel and wearable items for corporate uniforms, promotional wear, or team building events.",
         icon: "bi-t-shirt-fill",
     },
+    {
+        id: 26,
+        title: "Branded Drinkware",
+        description: "Personalized drinkware, including bottles and tumblers, perfect for corporate gifts or promotional items.",
+        icon: "bi-cup-straw",
+    },
+    {
+        id: 27,
+        title: "Custom Awards & Trophies",
+        description: "Custom-designed awards and recognition items for corporate achievements, employee recognition, and special milestones.",
+        icon: "bi-award-fill",
+    },
+    {
+        id: 28,
+        title: "Business Gift Sets",
+        description: "Thoughtful and high-quality business gift sets for clients, partners, and employees to strengthen relationships.",
+        icon: "bi-box-fill",
+    },
+    {
+        id: 29,
+        title: "Branded Clocks",
+        description: "Branded clocks that serve as practical and elegant corporate gifts or office decor items.",
+        icon: "bi-clock-fill",
+    },
+    {
+        id: 30,
+        title: "Electronic Gadgets (Branded)",
+        description: "Custom-branded electronic gadgets such as power banks, USB drives, or headphones, ideal for modern corporate gifts.",
+        icon: "bi-battery-charging", 
+    },
+
 ];
 
 const portfolioData = [
