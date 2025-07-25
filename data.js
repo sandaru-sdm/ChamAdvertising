@@ -244,6 +244,27 @@ const servicesData = [
       "Provision and setup of high-quality audio, video, and lighting equipment to enhance your event or exhibition stall.",
     icon: "bi-boombox-fill",
   },
+  {
+    id: 36,
+    title: "Exhibition Stall Furniture Rental",
+    description:
+      "Stylish and functional furniture rental for exhibition stalls to create comfortable, inviting, and professional spaces.",
+    icon: "bi-chair-fill",
+  },
+  {
+    id: 37,
+    title: "Exhibition Counters & Displays",
+    description:
+      "Custom-designed exhibition counters and various display types for engaging with visitors and showcasing products effectively.",
+    icon: "bi-shop-window", 
+  },
+  {
+    id: 38,
+    title: "Full Event & Exhibition Production",
+    description:
+      "Comprehensive production and installation services for both events and exhibition stalls, ensuring a flawless setup and execution from start to finish.",
+    icon: "bi-tools",
+  },
 ];
 
 const portfolioData = [
