@@ -46,7 +46,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalCarouselInner = document.getElementById('modalCarouselInner');
 
     if (portfolioContainer && typeof portfolioData !== 'undefined') {
-        portfolioData.forEach(item => {
+
+        const reveresedPortfolioData = [...portfolioData].reverse(); // Reverse the portfolio data for display
+
+        reveresedPortfolioData.forEach(item => {
             // Use the first image for the grid view
             const displayImage = item.images[0];
 

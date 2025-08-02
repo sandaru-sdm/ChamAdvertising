@@ -158,7 +158,7 @@ const servicesData = [
     title: "Custom Store Signs",
     description:
       "Unique and eye-catching custom signs tailored specifically for retail stores to attract and guide customers.",
-    icon: "bi-shop-fill",
+    icon: "bi-signpost-2-fill",
   },
   {
     id: 24,
@@ -172,7 +172,7 @@ const servicesData = [
     title: "Apparel & Wearables",
     description:
       "Custom-branded apparel and wearable items for corporate uniforms, promotional wear, or team building events.",
-    icon: "bi-t-shirt-fill",
+    icon: "bi-person-fill",
   },
   {
     id: 26,
@@ -249,14 +249,14 @@ const servicesData = [
     title: "Exhibition Stall Furniture Rental",
     description:
       "Stylish and functional furniture rental for exhibition stalls to create comfortable, inviting, and professional spaces.",
-    icon: "bi-chair-fill",
+    icon: "bi-shop-window",
   },
   {
     id: 37,
     title: "Exhibition Counters & Displays",
     description:
       "Custom-designed exhibition counters and various display types for engaging with visitors and showcasing products effectively.",
-    icon: "bi-shop-window", 
+    icon: "bi-shop-window",
   },
   {
     id: 38,
@@ -427,6 +427,18 @@ const portfolioData = [
     images: ["./assets/portfolio/mugprint.jpg"],
     description:
       "High-quality custom mug printing for branded merchandise, gifts, and promotional items.",
+  },
+  {
+    id: 14,
+    title: "Neon Backdrop",
+    category: "Backdrops",
+    images: [
+      "./assets/portfolio/NeonBackdrop1.jpg",
+      "./assets/portfolio/NeonBackdrop2.jpg",
+      "./assets/portfolio/NeonBackdrop3.jpg",
+    ],
+    description:
+      "Vibrant neon backdrops designed to create a striking visual impact for events, parties, and photo opportunities. Perfect for adding a modern, colorful, and energetic atmosphere to any occasion.",
   },
 ];
 
